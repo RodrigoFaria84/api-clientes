@@ -1,12 +1,12 @@
-name: Pipeline (DEVOPS) para Deploy da aplicação
+name: Pipeline para Deploy da aplicação
 
 on:
   push:
     branches:
-      - master
+      - main
   pull_request:
     branches:
-      - master
+      - main
 
 jobs:
 
